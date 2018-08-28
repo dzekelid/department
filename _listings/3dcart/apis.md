@@ -10,11 +10,33 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21488-www-
 x-kinRank: "7"
 x-alexaRank: "78099"
 tags: Department
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/department/master/_listings/3dcart/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: _3dCartWebAPI - This method is used to update a single CRM Department record
+    in the database. The {id} parameter specifies which CRM Department record to update.
+  x-api-slug: 3dcartwebapiv1crmdepartmentid-put
+  description: This method is used to update a single crm department record in the
+    database. the {id} parameter specifies which crm department record to update..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21488-www-3dcart-com.jpg
+  humanURL: http://www.3dcart.com
+  baseURL: https://apirest.3dcart.com//
+  tags: SaaS, Technology, internet, Commerce, Shopping Cart, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/department/master/_listings/3dcart/3dcartwebapiv1crmdepartmentid-put-openapi.md
+- name: _3dCartWebAPI - Get all CRM Departments
+  x-api-slug: 3dcartwebapiv1crmdepartment-get
+  description: Get all crm departments.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21488-www-3dcart-com.jpg
+  humanURL: http://www.3dcart.com
+  baseURL: https://apirest.3dcart.com//
+  tags: SaaS, Technology, internet, Commerce, Shopping Cart, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/department/master/_listings/3dcart/3dcartwebapiv1crmdepartment-get-openapi.md
 x-common:
 - type: x-github
   url: https://github.com/3dcart

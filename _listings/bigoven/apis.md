@@ -7,11 +7,24 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/379-bigove
 x-kinRank: "8"
 x-alexaRank: "117577"
 tags: Department
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/department/master/_listings/bigoven/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Big Oven - Departmentalize a list of strings -- used for ad-hoc grocery list
+    item addition
+  x-api-slug: grocerylistdepartment-post
+  description: Departmentalize a list of strings -- used for ad-hoc grocery list item
+    addition.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/379-bigoven.jpg
+  humanURL: http://www.bigoven.com
+  baseURL: https://api2.bigoven.com//
+  tags: Cooking, Food, Nutrition, Recipes, Food, Stack Network, Mobile, Technology,
+    internet, API Provider, , Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/department/master/_listings/bigoven/grocerylistdepartment-post-openapi.md
 x-common:
 - type: x-website
   url: http://www.bigoven.com
